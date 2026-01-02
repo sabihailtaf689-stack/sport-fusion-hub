@@ -106,78 +106,6 @@
             --heading-color: var(--primary);
         }
 
-        /* Purple & Teal */
-        .theme-purple-teal {
-            --primary: #7e22ce;
-            --secondary: #0d9488;
-            --accent: #a78bfa;
-            --light: #f3f4f6;
-            --dark: #1f2937;
-            --gray: #6b7280;
-            --light-gray: #e5e7eb;
-            --card-bg: #ffffff;
-            --header-bg: rgba(255, 255, 255, 0.95);
-            --hero-bg: rgba(243, 244, 246, 0.8);
-            --btn-shadow: 0 4px 12px rgba(126, 34, 206, 0.2);
-            --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-            --border: #e5e7eb;
-            --heading-color: var(--dark);
-        }
-
-        /* Orange & Blue */
-        .theme-orange-blue {
-            --primary: #ea580c;
-            --secondary: #2563eb;
-            --accent: #fdba74;
-            --light: #f9fafb;
-            --dark: #111827;
-            --gray: #6b7280;
-            --light-gray: #f3f4f6;
-            --card-bg: #ffffff;
-            --header-bg: rgba(255, 255, 255, 0.95);
-            --hero-bg: rgba(249, 250, 251, 0.8);
-            --btn-shadow: 0 4px 12px rgba(234, 88, 12, 0.2);
-            --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-            --border: #e5e7eb;
-            --heading-color: var(--dark);
-        }
-
-        /* Neon Pink & Cyan */
-        .theme-neon {
-            --primary: #ec4899;
-            --secondary: #06b6d4;
-            --accent: #f472b6;
-            --light: #f8fafc;
-            --dark: #0f172a;
-            --gray: #64748b;
-            --light-gray: #f1f5f9;
-            --card-bg: #ffffff;
-            --header-bg: rgba(255, 255, 255, 0.95);
-            --hero-bg: rgba(248, 250, 252, 0.8);
-            --btn-shadow: 0 4px 12px rgba(236, 72, 153, 0.2);
-            --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-            --border: #e2e8f0;
-            --heading-color: var(--dark);
-        }
-
-        /* Lime & Black */
-        .theme-lime-black {
-            --primary: #65a30d;
-            --secondary: #000000;
-            --accent: #a3e635;
-            --light: #f0fdf4;
-            --dark: #000000;
-            --gray: #71717a;
-            --light-gray: #e0e0e0;
-            --card-bg: #ffffff;
-            --header-bg: rgba(255, 255, 255, 0.95);
-            --hero-bg: rgba(240, 253, 244, 0.8);
-            --btn-shadow: 0 4px 12px rgba(101, 163, 13, 0.2);
-            --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-            --border: #d4d4d4;
-            --heading-color: var(--dark);
-        }
-
         body {
             background: linear-gradient(135deg, var(--dark) 0%, var(--light-gray) 100%);
             color: var(--dark);
@@ -190,11 +118,7 @@
         .theme-red-gold body,
         .theme-blue-silver body,
         .theme-green-white body,
-        .theme-mono body,
-        .theme-purple-teal body,
-        .theme-orange-blue body,
-        .theme-neon body,
-        .theme-lime-black body {
+        .theme-mono body {
             background: linear-gradient(135deg, var(--light) 0%, var(--light-gray) 100%);
             color: var(--light);
         }
@@ -263,11 +187,7 @@
         .theme-red-gold nav a,
         .theme-blue-silver nav a,
         .theme-green-white nav a,
-        .theme-mono nav a,
-        .theme-purple-teal nav a,
-        .theme-orange-blue nav a,
-        .theme-neon nav a,
-        .theme-lime-black nav a {
+        .theme-mono nav a {
             color: var(--dark);
             background: rgba(0, 0, 0, 0.1);
         }
@@ -282,11 +202,7 @@
         .theme-red-gold nav a:hover, .theme-red-gold nav a.active,
         .theme-blue-silver nav a:hover, .theme-blue-silver nav a.active,
         .theme-green-white nav a:hover, .theme-green-white nav a.active,
-        .theme-mono nav a:hover, .theme-mono nav a.active,
-        .theme-purple-teal nav a:hover, .theme-purple-teal nav a.active,
-        .theme-orange-blue nav a:hover, .theme-orange-blue nav a.active,
-        .theme-neon nav a:hover, .theme-neon nav a.active,
-        .theme-lime-black nav a:hover, .theme-lime-black nav a.active {
+        .theme-mono nav a:hover, .theme-mono nav a.active {
             color: white;
         }
 
@@ -342,22 +258,6 @@
             background: linear-gradient(135deg, #000000, #ffffff);
         }
 
-        .purple-teal {
-            background: linear-gradient(135deg, #7e22ce, #0d9488);
-        }
-
-        .orange-blue {
-            background: linear-gradient(135deg, #ea580c, #2563eb);
-        }
-
-        .neon {
-            background: linear-gradient(135deg, #ec4899, #06b6d4);
-        }
-
-        .lime-black {
-            background: linear-gradient(135deg, #65a30d, #000000);
-        }
-
         .btn {
             display: inline-flex;
             align-items: center;
@@ -386,11 +286,7 @@
         .theme-red-gold .btn:hover,
         .theme-blue-silver .btn:hover,
         .theme-green-white .btn:hover,
-        .theme-mono .btn:hover,
-        .theme-purple-teal .btn:hover,
-        .theme-orange-blue .btn:hover,
-        .theme-neon .btn:hover,
-        .theme-lime-black .btn:hover {
+        .theme-mono .btn:hover {
             color: var(--primary);
             box-shadow: 0 6px 15px rgba(209, 17, 73, 0.3);
         }
@@ -450,11 +346,7 @@
         .theme-red-gold .hero h2,
         .theme-blue-silver .hero h2,
         .theme-green-white .hero h2,
-        .theme-mono .hero h2,
-        .theme-purple-teal .hero h2,
-        .theme-orange-blue .hero h2,
-        .theme-neon .hero h2,
-        .theme-lime-black .hero h2 {
+        .theme-mono .hero h2 {
             background: none;
             color: var(--heading-color);
         }
@@ -634,11 +526,7 @@
         .theme-red-gold .article-content,
         .theme-blue-silver .article-content,
         .theme-green-white .article-content,
-        .theme-mono .article-content,
-        .theme-purple-teal .article-content,
-        .theme-orange-blue .article-content,
-        .theme-neon .article-content,
-        .theme-lime-black .article-content {
+        .theme-mono .article-content {
             color: var(--light);
         }
 
@@ -747,11 +635,7 @@
         .theme-red-gold .editor-form .form-control,
         .theme-blue-silver .editor-form .form-control,
         .theme-green-white .editor-form .form-control,
-        .theme-mono .editor-form .form-control,
-        .theme-purple-teal .editor-form .form-control,
-        .theme-orange-blue .editor-form .form-control,
-        .theme-neon .editor-form .form-control,
-        .theme-lime-black .editor-form .form-control {
+        .theme-mono .editor-form .form-control {
             background: rgba(0, 0, 0, 0.05);
             color: var(--dark);
         }
@@ -833,42 +717,6 @@
             border-radius: 12px;
             margin-bottom: 15px;
             background: linear-gradient(45deg, #ff2a6d, #05d9e8);
-        }
-
-        .theme-option:nth-child(2) .theme-preview {
-            background: linear-gradient(45deg, #f8f9fa, #0d0d0d);
-        }
-
-        .theme-option:nth-child(3) .theme-preview {
-            background: linear-gradient(45deg, #c62828, #ffd700);
-        }
-
-        .theme-option:nth-child(4) .theme-preview {
-            background: linear-gradient(45deg, #1565c0, #c0c6d4);
-        }
-
-        .theme-option:nth-child(5) .theme-preview {
-            background: linear-gradient(45deg, #2e7d32, #ffffff);
-        }
-
-        .theme-option:nth-child(6) .theme-preview {
-            background: linear-gradient(45deg, #000000, #ffffff);
-        }
-
-        .theme-option:nth-child(7) .theme-preview {
-            background: linear-gradient(45deg, #7e22ce, #0d9488);
-        }
-
-        .theme-option:nth-child(8) .theme-preview {
-            background: linear-gradient(45deg, #ea580c, #2563eb);
-        }
-
-        .theme-option:nth-child(9) .theme-preview {
-            background: linear-gradient(45deg, #ec4899, #06b6d4);
-        }
-
-        .theme-option:nth-child(10) .theme-preview {
-            background: linear-gradient(45deg, #65a30d, #000000);
         }
 
         .layout-options {
@@ -1191,60 +1039,8 @@
         <div class="tab-content active" id="articles">
             <div class="main-content">
                 <!-- Articles Section -->
-                <div class="articles">
-                    <!-- Football Article -->
-                    <div class="article-card">
-                        <div class="article-img">
-                            <i class="fas fa-futbol"></i>
-                            <div class="sport-tag">Football</div>
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span><i class="far fa-calendar"></i> Jan 2, 2026</span>
-                                <span><i class="far fa-user"></i> By Alex Ferguson</span>
-                                <span><i class="far fa-folder"></i> Tactics</span>
-                            </div>
-                            <h3>The Evolution of Counter-Attacking Football in the Premier League</h3>
-                            <p>How modern managers have refined the art of the counter-attack, with statistical analysis of the past three seasons showing a 32% increase in goals from counter-attacks. The data reveals fascinating patterns in how teams like Liverpool and Manchester City have mastered transitional play...</p>
-                            <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- F1 Article -->
-                    <div class="article-card f1">
-                        <div class="article-img">
-                            <i class="fas fa-flag-checkered"></i>
-                            <div class="sport-tag">Formula 1</div>
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span><i class="far fa-calendar"></i> Jan 1, 2026</span>
-                                <span><i class="far fa-user"></i> By Lewis Hamilton</span>
-                                <span><i class="far fa-folder"></i> Technical</span>
-                            </div>
-                            <h3>Ground Effect Returns: How 2026 Regulations Will Reshape Racing</h3>
-                            <p>An in-depth analysis of the upcoming 2026 F1 regulations focusing on ground effect aerodynamics, sustainable fuels, and how these changes will impact racing dynamics. The new rules aim to create closer racing while reducing environmental impact...</p>
-                            <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-
-                    <!-- Football Article -->
-                    <div class="article-card">
-                        <div class="article-img">
-                            <i class="fas fa-futbol"></i>
-                            <div class="sport-tag">Football</div>
-                        </div>
-                        <div class="article-content">
-                            <div class="article-meta">
-                                <span><i class="far fa-calendar"></i> Dec 30, 2025</span>
-                                <span><i class="far fa-user"></i> By Jurgen Klopp</span>
-                                <span><i class="far fa-folder"></i> Player Analysis</span>
-                            </div>
-                            <h3>The Rise of the Modern Full-Back: How They've Transformed Football</h3>
-                            <p>Exploring the evolution of the full-back position from purely defensive roles to key attacking weapons, with video analysis of the top performers. Players like Trent Alexander-Arnold and Joao Cancelo have redefined what's possible from the full-back position...</p>
-                            <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
+                <div class="articles" id="articles-container">
+                    <!-- Articles will be loaded here from Firebase -->
                 </div>
 
                 <!-- Sidebar -->
@@ -1271,7 +1067,7 @@
                 <div class="editor-header">
                     <h2 class="editor-title">Create Your Blog</h2>
                     <div class="editor-controls">
-                        <button class="btn">
+                        <button class="btn" id="save-draft">
                             <i class="fas fa-save"></i> Save Draft
                         </button>
                     </div>
@@ -1314,6 +1110,11 @@
                                 <option value="team">Team News</option>
                             </optgroup>
                         </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="blog-author">Your Name</label>
+                        <input type="text" id="blog-author" class="form-control" placeholder="Enter your name (optional)" value="Anonymous">
                     </div>
                     
                     <div class="form-group">
@@ -1363,22 +1164,6 @@
                             <div class="theme-preview"></div>
                             <div>Black & White</div>
                         </div>
-                        <div class="theme-option" data-theme="purple-teal">
-                            <div class="theme-preview"></div>
-                            <div>Purple & Teal</div>
-                        </div>
-                        <div class="theme-option" data-theme="orange-blue">
-                            <div class="theme-preview"></div>
-                            <div>Orange & Blue</div>
-                        </div>
-                        <div class="theme-option" data-theme="neon">
-                            <div class="theme-preview"></div>
-                            <div>Neon Pink</div>
-                        </div>
-                        <div class="theme-option" data-theme="lime-black">
-                            <div class="theme-preview"></div>
-                            <div>Lime & Black</div>
-                        </div>
                     </div>
                 </div>
                 
@@ -1404,7 +1189,7 @@
                 
                 <div class="customization-section">
                     <h3><i class="fas fa-save"></i> Save Preferences</h3>
-                    <button class="btn">
+                    <button class="btn" id="save-customization">
                         <i class="fas fa-save"></i> Save Customization
                     </button>
                 </div>
@@ -1414,7 +1199,7 @@
 
     <!-- Founder Credit -->
     <div class="founder-credit">
-        Founder: <a href="https://github.com/sabihalraf" target="_blank">SABIH ALTAF</a>
+        Founder: <a href="#" target="_blank">SABIH ALTAF</a>
     </div>
 
     <!-- Footer -->
@@ -1459,236 +1244,318 @@
         </div>
     </footer>
 
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+
     <script>
-        // Tab switching functionality
-        document.querySelectorAll('.tab-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                // Remove active class from all buttons and content
-                document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-                document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
-                
-                // Add active class to clicked button
-                this.classList.add('active');
-                
-                // Show corresponding content
-                const tabId = this.getAttribute('data-tab');
-                document.getElementById(tabId).classList.add('active');
-                
-                // Update URL hash
-                window.location.hash = tabId;
-            });
-        });
-        
-        // Theme switching functionality
-        document.querySelectorAll('.theme-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                // Remove active class from all buttons
-                document.querySelectorAll('.theme-btn').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                
-                // Add active class to clicked button
-                this.classList.add('active');
-                
-                // Get selected theme
-                const theme = this.getAttribute('data-theme');
-                
-                // Remove all theme classes from body
-                document.body.classList.remove('theme-light', 'theme-red-gold', 'theme-blue-silver', 'theme-green-white', 'theme-mono', 'theme-purple-teal', 'theme-orange-blue', 'theme-neon', 'theme-lime-black');
-                
-                // Add selected theme class
-                if(theme === 'light') {
-                    document.body.classList.add('theme-light');
-                } else if(theme === 'red-gold') {
-                    document.body.classList.add('theme-red-gold');
-                } else if(theme === 'blue-silver') {
-                    document.body.classList.add('theme-blue-silver');
-                } else if(theme === 'green-white') {
-                    document.body.classList.add('theme-green-white');
-                } else if(theme === 'mono') {
-                    document.body.classList.add('theme-mono');
-                } else if(theme === 'purple-teal') {
-                    document.body.classList.add('theme-purple-teal');
-                } else if(theme === 'orange-blue') {
-                    document.body.classList.add('theme-orange-blue');
-                } else if(theme === 'neon') {
-                    document.body.classList.add('theme-neon');
-                } else if(theme === 'lime-black') {
-                    document.body.classList.add('theme-lime-black');
-                }
-                
-                // Save theme preference to localStorage
-                localStorage.setItem('selectedTheme', theme);
-            });
-        });
-        
-        // Customization panel theme options
-        document.querySelectorAll('.theme-option').forEach(option => {
-            option.addEventListener('click', function() {
-                // Remove active class from all options
-                document.querySelectorAll('.theme-option').forEach(opt => {
-                    opt.classList.remove('active');
-                });
-                
-                // Add active class to clicked option
-                this.classList.add('active');
-                
-                // Get selected theme
-                const theme = this.getAttribute('data-theme');
-                
-                // Remove all theme classes from body
-                document.body.classList.remove('theme-light', 'theme-red-gold', 'theme-blue-silver', 'theme-green-white', 'theme-mono', 'theme-purple-teal', 'theme-orange-blue', 'theme-neon', 'theme-lime-black');
-                
-                // Apply selected theme
-                if(theme === 'light') {
-                    document.body.classList.add('theme-light');
-                } else if(theme === 'red-gold') {
-                    document.body.classList.add('theme-red-gold');
-                } else if(theme === 'blue-silver') {
-                    document.body.classList.add('theme-blue-silver');
-                } else if(theme === 'green-white') {
-                    document.body.classList.add('theme-green-white');
-                } else if(theme === 'mono') {
-                    document.body.classList.add('theme-mono');
-                } else if(theme === 'purple-teal') {
-                    document.body.classList.add('theme-purple-teal');
-                } else if(theme === 'orange-blue') {
-                    document.body.classList.add('theme-orange-blue');
-                } else if(theme === 'neon') {
-                    document.body.classList.add('theme-neon');
-                } else if(theme === 'lime-black') {
-                    document.body.classList.add('theme-lime-black');
-                }
-            });
-        });
-        
-        // Form submission handling
-        document.getElementById('blogForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form values
-            const title = document.getElementById('blog-title').value;
-            const category = document.getElementById('blog-category').value;
-            const content = document.getElementById('blog-content').value;
-            
-            // Simple validation
-            if(title && category && content) {
-                // In a real application, you would send this to a server
-                alert('Your blog has been published successfully! It will appear in the Articles section shortly.');
-                this.reset();
-            } else {
-                alert('Please fill in all fields.');
+        // TODO: Replace with your actual Firebase config
+        <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.7.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAZFeHkyoaQIgwoalVzLBApQTUxqh-yeq4",
+    authDomain: "sport-fusion-hub.firebaseapp.com",
+    databaseURL: "https://sport-fusion-hub-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "sport-fusion-hub",
+    storageBucket: "sport-fusion-hub.firebasestorage.app",
+    messagingSenderId: "161519958778",
+    appId: "1:161519958778:web:af9b2b17515aa2e860e743"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const database = firebase.database();
+
+        // Sample blog data (will be replaced by Firebase data)
+        let blogs = [
+            {
+                id: 1,
+                title: "The Evolution of Counter-Attacking Football in the Premier League",
+                category: "Tactics",
+                sport: "football",
+                author: "Alex Ferguson",
+                content: "How modern managers have refined the art of the counter-attack, with statistical analysis of the past three seasons showing a 32% increase in goals from counter-attacks. The data reveals fascinating patterns in how teams like Liverpool and Manchester City have mastered transitional play...",
+                createdAt: new Date('2026-01-02')
+            },
+            {
+                id: 2,
+                title: "Ground Effect Returns: How 2026 Regulations Will Reshape Racing",
+                category: "Technical",
+                sport: "f1",
+                author: "Lewis Hamilton",
+                content: "An in-depth analysis of the upcoming 2026 F1 regulations focusing on ground effect aerodynamics, sustainable fuels, and how these changes will impact racing dynamics. The new rules aim to create closer racing while reducing environmental impact...",
+                createdAt: new Date('2026-01-01')
+            },
+            {
+                id: 3,
+                title: "The Rise of the Modern Full-Back: How They've Transformed Football",
+                category: "Player Analysis",
+                sport: "football",
+                author: "Jurgen Klopp",
+                content: "Exploring the evolution of the full-back position from purely defensive roles to key attacking weapons, with video analysis of the top performers. Players like Trent Alexander-Arnold and Joao Cancelo have redefined what's possible from the full-back position...",
+                createdAt: new Date('2025-12-30')
             }
-        });
-        
-        // Initialize based on URL hash
-        document.addEventListener('DOMContentLoaded', function() {
-            const hash = window.location.hash.substring(1);
-            if(hash) {
-                // Remove active class from all buttons and content
-                document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
-                document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        ];
+
+        // Render blogs in the articles section
+        function renderBlogs(blogList) {
+            const container = document.getElementById('articles-container');
+            container.innerHTML = '';
+            
+            // Sort blogs by date (newest first)
+            const sortedBlogs = [...blogList].sort((a, b) => b.createdAt - a.createdAt);
+            
+            sortedBlogs.forEach(blog => {
+                const sportClass = blog.sport === 'f1' ? 'f1' : '';
+                const sportTag = blog.sport === 'f1' ? 'Formula 1' : 'Football';
+                const iconClass = blog.sport === 'f1' ? 'fa-flag-checkered' : 'fa-futbol';
+                const date = new Date(blog.createdAt).toLocaleDateString();
                 
-                // Activate the tab based on hash
-                if(hash === 'write') {
-                    document.querySelector('.tab-btn[data-tab="write"]').classList.add('active');
-                    document.getElementById('write').classList.add('active');
-                } else if(hash === 'customize') {
-                    document.querySelector('.tab-btn[data-tab="customize"]').classList.add('active');
-                    document.getElementById('customize').classList.add('active');
+                const articleHTML = `
+                    <div class="article-card ${sportClass}">
+                        <div class="article-img">
+                            <i class="fas ${iconClass}"></i>
+                            <div class="sport-tag">${sportTag}</div>
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span><i class="far fa-calendar"></i> ${date}</span>
+                                <span><i class="far fa-user"></i> ${blog.author}</span>
+                                <span><i class="far fa-folder"></i> ${blog.category}</span>
+                            </div>
+                            <h3>${blog.title}</h3>
+                            <p>${blog.content.substring(0, 200)}${blog.content.length > 200 ? '...' : ''}</p>
+                            <a href="#" class="read-more">Read Full Article <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                `;
+                
+                container.innerHTML += articleHTML;
+            });
+        }
+
+        // Load blogs from Firebase
+        function loadBlogsFromFirebase() {
+            const blogsRef = database.ref('blogs');
+            blogsRef.orderByChild('createdAt').limitToLast(20).on('value', (snapshot) => {
+                const blogList = [];
+                snapshot.forEach((childSnapshot) => {
+                    const blog = childSnapshot.val();
+                    blog.id = childSnapshot.key;
+                    blogList.push(blog);
+                });
+                renderBlogs(blogList);
+            });
+        }
+
+        // Set up event listeners
+        function setupEventListeners() {
+            // Tab switching
+            document.querySelectorAll('.tab-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+                    
+                    this.classList.add('active');
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
+                    
+                    // Load blogs when switching to articles tab
+                    if (tabId === 'articles') {
+                        loadBlogsFromFirebase();
+                    }
+                });
+            });
+
+            // Theme switching
+            document.querySelectorAll('.theme-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    document.querySelectorAll('.theme-btn').forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const theme = this.getAttribute('data-theme');
+                    document.body.className = '';
+                    if (theme !== 'dark') {
+                        document.body.classList.add(`theme-${theme}`);
+                    }
+                    
+                    localStorage.setItem('selectedTheme', theme);
+                });
+            });
+
+            // Customization theme options
+            document.querySelectorAll('.theme-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    document.querySelectorAll('.theme-option').forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const theme = this.getAttribute('data-theme');
+                    document.body.className = '';
+                    if (theme !== 'dark') {
+                        document.body.classList.add(`theme-${theme}`);
+                    }
+                });
+            });
+
+            // Sport selector
+            document.querySelectorAll('.sport-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    document.querySelectorAll('.sport-option').forEach(opt => opt.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const sport = this.getAttribute('data-sport');
+                    const categorySelect = document.getElementById('blog-category');
+                    const selectedCategory = categorySelect.value;
+                    
+                    categorySelect.innerHTML = '';
+                    
+                    if (sport === 'football') {
+                        categorySelect.innerHTML = `
+                            <option value="">Select a category</option>
+                            <optgroup label="Football">
+                                <option value="match">Match Review</option>
+                                <option value="tactics">Tactical Analysis</option>
+                                <option value="player">Player Profile</option>
+                                <option value="transfer">Transfer News</option>
+                            </optgroup>
+                        `;
+                    } else {
+                        categorySelect.innerHTML = `
+                            <option value="">Select a category</option>
+                            <optgroup label="Formula 1">
+                                <option value="race">Race Review</option>
+                                <option value="technical">Technical Analysis</option>
+                                <option value="driver">Driver Profile</option>
+                                <option value="team">Team News</option>
+                            </optgroup>
+                        `;
+                    }
+                    
+                    if (selectedCategory && [...categorySelect.options].some(option => option.value === selectedCategory)) {
+                        categorySelect.value = selectedCategory;
+                    }
+                });
+            });
+
+            // Blog form submission
+            document.getElementById('blogForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const title = document.getElementById('blog-title').value;
+                const category = document.getElementById('blog-category').value;
+                const content = document.getElementById('blog-content').value;
+                const author = document.getElementById('blog-author').value || 'Anonymous';
+                const sportOption = document.querySelector('.sport-option.active');
+                const sport = sportOption ? sportOption.getAttribute('data-sport') : 'football';
+                
+                if (!title || !category || !content) {
+                    alert('Please fill in all required fields.');
+                    return;
+                }
+                
+                // Save to Firebase
+                database.ref('blogs').push({
+                    title: title,
+                    category: category,
+                    content: content,
+                    author: author,
+                    sport: sport,
+                    createdAt: firebase.database.ServerValue.TIMESTAMP
+                })
+                .then(() => {
+                    alert('Your blog has been published successfully!');
+                    
+                    // Reset form
+                    this.reset();
+                    document.getElementById('blog-author').value = 'Anonymous';
+                    
+                    // Reset sport selector
+                    document.querySelectorAll('.sport-option').forEach(opt => opt.classList.remove('active'));
+                    document.querySelector('.sport-option[data-sport="football"]').classList.add('active');
+                })
+                .catch((error) => {
+                    console.error("Error adding blog: ", error);
+                    alert('Error publishing blog. Please try again.');
+                });
+            });
+
+            // Save draft button
+            document.getElementById('save-draft').addEventListener('click', function() {
+                const title = document.getElementById('blog-title').value;
+                const content = document.getElementById('blog-content').value;
+                
+                if (title || content) {
+                    localStorage.setItem('blogDraft', JSON.stringify({
+                        title: title,
+                        content: content,
+                        author: document.getElementById('blog-author').value,
+                        sport: document.querySelector('.sport-option.active').getAttribute('data-sport'),
+                        category: document.getElementById('blog-category').value
+                    }));
+                    alert('Draft saved successfully!');
                 } else {
-                    document.querySelector('.tab-btn[data-tab="articles"]').classList.add('active');
-                    document.getElementById('articles').classList.add('active');
+                    alert('Nothing to save!');
+                }
+            });
+
+            // Load draft if available
+            const draft = localStorage.getItem('blogDraft');
+            if (draft) {
+                const draftData = JSON.parse(draft);
+                document.getElementById('blog-title').value = draftData.title || '';
+                document.getElementById('blog-content').value = draftData.content || '';
+                document.getElementById('blog-author').value = draftData.author || 'Anonymous';
+                
+                // Set sport selector
+                if (draftData.sport) {
+                    document.querySelectorAll('.sport-option').forEach(opt => opt.classList.remove('active'));
+                    const sportOption = document.querySelector(`.sport-option[data-sport="${draftData.sport}"]`);
+                    if (sportOption) {
+                        sportOption.classList.add('active');
+                    }
+                }
+                
+                // Set category
+                if (draftData.category) {
+                    document.getElementById('blog-category').value = draftData.category;
                 }
             }
-            
-            // Load saved theme from localStorage
+
+            // Save customization
+            document.getElementById('save-customization').addEventListener('click', function() {
+                alert('Customization saved! Your preferences will be remembered.');
+            });
+
+            // Load saved theme
             const savedTheme = localStorage.getItem('selectedTheme');
-            if(savedTheme) {
-                // Remove active class from all buttons
-                document.querySelectorAll('.theme-btn').forEach(btn => {
-                    btn.classList.remove('active');
-                });
-                
-                // Add active class to saved theme button
-                const activeButton = document.querySelector(`.theme-btn[data-theme="${savedTheme}"]`);
-                if(activeButton) {
-                    activeButton.classList.add('active');
+            if (savedTheme) {
+                document.querySelectorAll('.theme-btn').forEach(btn => btn.classList.remove('active'));
+                const activeBtn = document.querySelector(`.theme-btn[data-theme="${savedTheme}"]`);
+                if (activeBtn) {
+                    activeBtn.classList.add('active');
                 }
                 
-                // Remove all theme classes from body
-                document.body.classList.remove('theme-light', 'theme-red-gold', 'theme-blue-silver', 'theme-green-white', 'theme-mono', 'theme-purple-teal', 'theme-orange-blue', 'theme-neon', 'theme-lime-black');
-                
-                // Apply saved theme
-                if(savedTheme === 'light') {
-                    document.body.classList.add('theme-light');
-                } else if(savedTheme === 'red-gold') {
-                    document.body.classList.add('theme-red-gold');
-                } else if(savedTheme === 'blue-silver') {
-                    document.body.classList.add('theme-blue-silver');
-                } else if(savedTheme === 'green-white') {
-                    document.body.classList.add('theme-green-white');
-                } else if(savedTheme === 'mono') {
-                    document.body.classList.add('theme-mono');
-                } else if(savedTheme === 'purple-teal') {
-                    document.body.classList.add('theme-purple-teal');
-                } else if(savedTheme === 'orange-blue') {
-                    document.body.classList.add('theme-orange-blue');
-                } else if(savedTheme === 'neon') {
-                    document.body.classList.add('theme-neon');
-                } else if(savedTheme === 'lime-black') {
-                    document.body.classList.add('theme-lime-black');
+                document.body.className = '';
+                if (savedTheme !== 'dark') {
+                    document.body.classList.add(`theme-${savedTheme}`);
                 }
             }
-        });
-        
-        // Sport selector functionality
-        document.querySelectorAll('.sport-option').forEach(option => {
-            option.addEventListener('click', function() {
-                // Remove active class from all options
-                document.querySelectorAll('.sport-option').forEach(opt => {
-                    opt.classList.remove('active');
-                });
-                
-                // Add active class to clicked option
-                this.classList.add('active');
-                
-                // Update category options based on selected sport
-                const sport = this.getAttribute('data-sport');
-                const categorySelect = document.getElementById('blog-category');
-                const selectedCategory = categorySelect.value;
-                
-                // Clear current options
-                categorySelect.innerHTML = '';
-                
-                // Add new options based on sport
-                if(sport === 'football') {
-                    categorySelect.innerHTML = `
-                        <option value="">Select a category</option>
-                        <optgroup label="Football">
-                            <option value="match">Match Review</option>
-                            <option value="tactics">Tactical Analysis</option>
-                            <option value="player">Player Profile</option>
-                            <option value="transfer">Transfer News</option>
-                        </optgroup>
-                    `;
-                } else {
-                    categorySelect.innerHTML = `
-                        <option value="">Select a category</option>
-                        <optgroup label="Formula 1">
-                            <option value="race">Race Review</option>
-                            <option value="technical">Technical Analysis</option>
-                            <option value="driver">Driver Profile</option>
-                            <option value="team">Team News</option>
-                        </optgroup>
-                    `;
-                }
-                
-                // Restore previously selected category if it exists in the new list
-                if(selectedCategory && [...categorySelect.options].some(option => option.value === selectedCategory)) {
-                    categorySelect.value = selectedCategory;
-                }
-            });
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            setupEventListeners();
+            // Load blogs when page loads
+            loadBlogsFromFirebase();
         });
     </script>
 </body>
